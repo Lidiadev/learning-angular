@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
-import { ProductDetailGuard } from 'src/products/product-detail.guard';
 import { ProductModule } from './products/product.module';
 
 @NgModule({
